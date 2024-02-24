@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: hello
-  description: Tanzu Java Web App
+  namespace: mae
+  description: Hello App
   tags:
     - app-accelerator
     - java
