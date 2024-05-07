@@ -23,6 +23,6 @@ spec:
       apps.tanzu.vmware.com/language: java
   source:
     git:
-      url: ssh://git@github.com/maelarge/hello-too.git
+      url: ssh://git@github.com/Mpluya/hello-too.git
       ref:
         branch: main
