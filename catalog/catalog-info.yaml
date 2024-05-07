@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: hello
+  name: hello-too
   namespace: mae
   description: Hello App
   tags:
@@ -11,7 +11,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-too'
 spec:
   type: service
   lifecycle: experimental
